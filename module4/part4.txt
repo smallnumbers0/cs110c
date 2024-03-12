@@ -1,0 +1,15 @@
+3. In big O notation, what is the expected efficiency?  Why is counting sort impractical as a general sorting algorithm?
+The expected efficiency should be O(n). It becoems impractical for very large arrays as it becomes very memory heavy.
+
+Bubble 8 trial 1: 222 trial 2: 174 trial 3: 226 Average: 207.33
+Bubble 32 trial 1: 2910 trial 2: 3082 trial 3: 2880 Average: 2624
+Bubble 128 trial 1: 48010 trial 2: 46814 trial 3: 48010 Average: 47611.33
+
+
+Quick 8 trial 1: 28 trial 2: 24 trial 3: 30 Average: 27.33
+Qucik 32 trial 1: 166 trial 2: 188 trial 3: 154 Average: 169.33
+Quick 128 trial 1: 1008 trial 2: 922 trial 3: 894 Average: 941.33
+
+Count 8 trial 1: 32 trial 2: 32 trial 3: 32 Average: 32
+Count 32 trial 1: 128 trial 2: 128 trial 3: 128 Average: 128
+Count 128 trial 1: 512 trial 2: 512 trial 3: 512 Average: 512

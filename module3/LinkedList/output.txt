@@ -1,0 +1,7 @@
+/*
+Sample output:
+jackychoi@Jackys-MacBook-Pro LinkedList % ./a.out
+Before Reverse: 3 6 9 50 50 
+Afer Reverse: 50 50 9 6 3 
+jackychoi@Jackys-MacBook-Pro LinkedList % 
+*/
