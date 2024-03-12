@@ -1,0 +1,15 @@
+jackychoi@Jackys-MacBook-Pro SortedListHasA % g++ *.cpp
+jackychoi@Jackys-MacBook-Pro SortedListHasA % ./a.out  
+Welcome to the tester!
+Enter high scores or a negative score to end: 
+Enter high score: 56
+Enter high score: 77
+Enter high score: 34
+Enter high score: 6
+Enter high score: 89
+Enter high score: 2
+Enter high score: 3
+Enter high score: -1
+High Scores: 2 3 6 34 56 77 89 
+Testing getPosition(6)
+3
