@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "stack.cpp"
+#include "stack.h"
 
 using namespace std;
 
@@ -69,10 +69,12 @@ int evaluatePostfix(const string& postfix) {
     return s.pop();
 }
 
+
 int evaluateExpression(const string& expression) {
     string postfix = infixToPostfix(expression);
     return evaluatePostfix(postfix);
 }
+
 
 int main() {
     string expression;
